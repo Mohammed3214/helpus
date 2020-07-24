@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Help Us</title>
+      <!-- CSS only -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <!-- header -->
+  <header id="home" class="bg-secondary py-4">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+      <a href="#home" class="navbar-brand text-light text-uppercase"><span class="h2 font-weight-bold">help</span><span class="h1">us</span></a>
+      <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <div class="bg-light line1"></div>
+        <div class="bg-light line2"></div>
+        <div class="bg-light line3"></div>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#home" class="nav-link m-2 menu-item nav-active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link m-2 menu-item">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#donate" class="nav-link m-2 menu-item">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link m-2 menu-item">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- banner -->
+    <div class="text-light text-md-right text-center banner">
+      <h1 class="display-4 banner-heading">Welcome to <span class="text-uppercase display-4">help</span><span class="display-3">US</span> website</h1>
+      <p class="lead banner-par">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <!-- end of banner -->
+  </header>
+  <!-- end of header -->
+
+  <!-- about -->
+  <section id="about" class="p-5 about ">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-white text-center">
+        <div class="col m-4">
+          <h1 class="display-4 mb-4">About US</h1>
+          <div class="underline mb-4"></div>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos fuga aliquam beatae eaque accusantium aperiam qui, id repellat. Nulla dignissimos, aliquam omnis debitis maxime numquam voluptate esse facere rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias molestiae, maiores, ad labore optio aliquam unde, architecto ipsum beatae voluptatem ex accusantium? Labore cumque quia minima consequatur facere? Voluptatibus!</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      
+  </section>
+  <!-- end of about -->
+  <!-- Donate -->
+  <section id="donate" class="p-5 bg-secondary text-center ">
+    <form method="post" style="max-width: 50%;display: inline-block" class="bg-white p-5">
+        <div style="max-width: 400px;">
+        </div>
+        <h1 class="mb-5">Donation Form</h1>
+        <div style="display: flex; padding-bottom: 18px;max-width : 550px;">
+        <div style=" margin-left: 0; margin-right: 1%; max-width: 49%;">First name<br/>
+        <input type="text" id="data_2" name="data_2" style="max-width: 100%;" class="form-control"/>
+        </div>
+        <div style=" margin-left: 1%; margin-right: 0; max-width: 49%;">Last name<br/>
+        <input type="text" id="data_3" name="data_3" style="max-width: 100%;" class="form-control"/>
+        </div>
+        </div><div style="padding-bottom: 18px;">Email<br/>
+        <input type="text" id="data_4" name="data_4" style="max-width : 550px;" class="form-control"/>
+        </div>
+        <div style="padding-bottom: 18px;">Donation Amount<span style="color: red;"> *</span><br/>
+        <span><input type="radio" id="data_5_0" name="data_5" value="50"/> 50L.E</span><br/>
+        <span><input type="radio" id="data_5_1" name="data_5" value="100"/> 100L.E</span><br/>
+        <span><input type="radio" id="data_5_2" name="data_5" value="250"/> 250L.E</span><br/>
+        <span><input type="radio" id="data_5_3" name="data_5" value="500"/> 500L.E</span><br/>
+        </div>
+        <div style="padding-bottom: 18px;">Full Address<br/>
+        <textarea id="data_6" false name="data_6" style="max-width : 550px;" rows="3" class="form-control"></textarea>
+        </div>
+        <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
+        
+        </form>
+  </section>
+  <!-- End of Donate -->
+
+  <!-- Contact -->
+  <section id="contact" class="p-5 about ">
+    <div class="container contact-form">
+      <div class="contact-image">
+          <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+      </div>
+      <form method="post">
+          <h3>Drop Us a Message</h3>
+         <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                  </div>
+                  <div class="form-group">
+                      <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                  </div>
+              </div>
+          </div>
+      </form>
+</div>
+  </section>
+  <!-- End of Contact -->
+
+  <!-- footer -->
+  <footer class="bg-dark px-5">
+    <div class="container-fluid">
+      <div class="row text-light py-4">
+        <div class="col-lg-6">
+          <h5 class="pb-3">About Us</h5>
+          <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nobis dicta molestiae id laboriosam natus repudiandae, ducimus illum veritatis perspiciatis possimus, at facere debitis accusantium?</p>
+        </div>
+        
+        <div class="col-lg-6">
+          <h5 class="pb-3">Stay Connected</h5>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusamus dolores iste praesentium assumenda est quia accusantium corrupti ipsam inventore.</p>
+          <form class="mb-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email Address">
+              <div class="input-group-append">
+                <button type="button" class="btn bg-danger text-white text-uppercase font-weight-bold">Sign Up</button>
+              </div>
+            </div>
+          </form>
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fab fa-facebook-square fa-2x text-primary"></i></li>
+            <li class="list-inline-item"><i class="fab fa-google-plus fa-2x text-danger"></i></li>
+            <li class="list-inline-item"><i class="fab fa-instagram fa-2x text-danger"></i></li>
+            <li class="list-inline-item"><i class="fab fa-twitter fa-2x text-info"></i></li>
+            <li class="list-inline-item"><i class="fab fa-youtube fa-2x text-danger"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center text-light border-top pt-3">
+          <p>&copy; 2020 Copyright</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+
+  
+    
+      <!-- JS, Popper.js, and jQuery -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="app.js"></script> 
+    </body>
+</html>
